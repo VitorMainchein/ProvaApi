@@ -26,13 +26,13 @@ export default function Clubs({ Clube }){
       {loading ? (
         <p>Carregando...</p>
       ) : (
-        <div className="tudo">
-        <ul className="lista">
+        <div className="all">
+        <ul className="list">
           {clubes.map((clube) => (
             <li key={clube.id}>
                 <div className="time">
               <img src={clube.escudos['60x60']}/>
-            <div className="clube_apelido">
+            <div className="apelido_do_time">
                 <div className="nome">
               {clube.nome}
                 </div>
