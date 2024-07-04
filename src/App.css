@@ -1,0 +1,63 @@
+body{
+  background-color: #e7e7e7 ;
+  
+}
+.logo{
+  width: 100px;
+}
+.cabecalho{
+  right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cacaca;
+    color: #666666; 
+    padding: 25px;
+    align-items: center;
+    height: 10px;
+}
+.time{
+  display: flex;
+  width: 1000px;
+  gap: 10px;
+  height: 45px;
+}
+.tudo{
+  margin-top: 70px;
+  height: 870vw;
+}
+li{
+  list-style-type: none;
+}
+.nome{
+  font-weight: bold;
+}
+.apelido{
+  font-size: 12px;
+  color: #8f8e8e;
+}
+.clube_apelido{
+  display: flex;
+  flex-direction: column;
+}
+.lista{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600) {
+
+  .cabecalho{
+    width: 100vw;
+    height: 30vh;
+  }
+
+  .tudo{
+    height: 900vw;
+  }
+  
+}
