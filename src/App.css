@@ -25,7 +25,7 @@ body{
   gap: 10px;
   height: 45px;
 }
-.tudo{
+.all{
   margin-top: 70px;
   height: 870vw;
 }
@@ -39,7 +39,7 @@ li{
   font-size: 12px;
   color: #8f8e8e;
 }
-.clube_apelido{
+.apelido_do_time{
   display: flex;
   flex-direction: column;
 }
